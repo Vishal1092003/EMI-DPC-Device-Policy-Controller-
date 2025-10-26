@@ -6,7 +6,7 @@ const connectDB = require("./db");
 const deviceRoutes = require("./routes/deviceRoutes");
 const provisionRoutes = require("./routes/provisionRoutes");
 const adminRoutes = require("./routes/adminRoutes")
-
+const path = require("path");
 dotenv.config();
 connectDB();
 
