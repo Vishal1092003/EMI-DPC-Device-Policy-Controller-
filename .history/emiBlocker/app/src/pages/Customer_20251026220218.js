@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Alert } from "react-native";
 
 const BASE_URL = "https://emidpc-five.vercel.app/api/devices";
-const IMEI = "1234567890"; 
+const IMEI = "1234567890"; // replace with real or dynamically generated IMEI
 
 export default function FirstRunRegister() {
     useEffect(() => {

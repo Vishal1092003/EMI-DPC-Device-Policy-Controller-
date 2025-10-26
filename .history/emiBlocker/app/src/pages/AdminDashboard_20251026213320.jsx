@@ -14,8 +14,8 @@ import { useRouter } from "expo-router";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-const ADMIN_URL = "https://emidpc-five.vercel.app/api/admin";
-const DEVICE_URL = "https://emidpc-five.vercel.app/api/devices";
+const ADMIN_URL = "https://emidpc-five.vercel.app//api/admin";
+const DEVICE_URL = "http://10.0.2.2:3000/api/devices";
 
 export default function AdminDashboard() {
     const router = useRouter();

@@ -25,7 +25,6 @@ exports.getAllDevices = async (req, res) => {
         res.status(500).json({ msg: err.message });
     }
 };
-
 // Called by the DPC app after Device Owner provisioning to register with server
 exports.registerFromDevice = async (req, res) => {
     try {

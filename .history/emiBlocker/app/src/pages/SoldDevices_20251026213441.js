@@ -33,6 +33,7 @@ export default function SoldDevices() {
             Alert.alert("Error", "Cannot fetch devices. Check backend connection.");
         }
     };
+
     useEffect(() => {
         fetchDevices();
     }, []);

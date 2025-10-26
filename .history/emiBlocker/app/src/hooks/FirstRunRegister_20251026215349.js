@@ -8,7 +8,7 @@ export default function FirstRunRegister() {
     useEffect(() => {
         (async () => {
             try {
-                await fetch(`${BASE_URL}/register`, {
+                await fetch(`${BASE_URL}/device/register`, {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({

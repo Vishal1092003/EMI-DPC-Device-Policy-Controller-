@@ -15,7 +15,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 const ADMIN_URL = "https://emidpc-five.vercel.app/api/admin";
-const DEVICE_URL = "https://emidpc-five.vercel.app/api/devices";
+const DEVICE_URL = "https://emidpc-five.vercel.app//api/devices";
 
 export default function AdminDashboard() {
     const router = useRouter();

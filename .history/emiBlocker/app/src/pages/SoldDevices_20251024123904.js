@@ -17,7 +17,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 const { height, width } = Dimensions.get("window");
-const BASE_URL = "https://emidpc-five.vercel.app/api/devices";
+const BASE_URL = "http://10.0.2.2:3000/api/devices";
 
 export default function SoldDevices() {
     const router = useRouter();
@@ -33,6 +33,7 @@ export default function SoldDevices() {
             Alert.alert("Error", "Cannot fetch devices. Check backend connection.");
         }
     };
+
     useEffect(() => {
         fetchDevices();
     }, []);

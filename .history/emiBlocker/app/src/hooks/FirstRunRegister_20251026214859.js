@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
 import { Alert } from "react-native";
 
-const BASE_URL = "https://emidpc-five.vercel.app/api/device";
+const BASE_URL = "https://emidpc-five.vercel.app/api/devices";
 const IMEI = "put-real-imei-here"; // later replace with a real unique ID
 
 export default function FirstRunRegister() {
     useEffect(() => {
         (async () => {
             try {
-                await fetch(`${BASE_URL}/register`, {
+                await fetch(`${BASE_URL}/device/register`, {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({

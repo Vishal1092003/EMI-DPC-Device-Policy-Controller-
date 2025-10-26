@@ -3,7 +3,7 @@ import { View, Image, ActivityIndicator, StyleSheet, Text, Alert } from "react-n
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-const BASE_URL = "https://emidpc-five.vercel.app/api/provision/qr";
+const BASE_URL = "https://emidpc-five.vercel.app//api/provision/qr";
 
 export default function ProvisionQR() {
     const [qr, setQr] = useState(null);
