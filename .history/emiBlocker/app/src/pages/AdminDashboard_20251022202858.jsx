@@ -1,0 +1,1 @@
+similarly use the router in this also   and give the whole code 

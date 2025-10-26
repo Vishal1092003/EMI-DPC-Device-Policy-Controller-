@@ -1,0 +1,17 @@
+const express=require('express');
+import dotenv from "dotenv";
+const app=express();
+
+app.use(express.json());
+app.use(require('cors'));
+
+dotenv.config();
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => {
+    console.log(`App started at port number ${PORT}`);
+})
+app.get("/",(req,res)=>{
+    res.send(`App started at port number ${PORT}`);
+})
+
