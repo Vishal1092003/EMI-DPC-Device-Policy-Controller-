@@ -14,12 +14,9 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 app.use(helmet());
-app.use(cors({ origin: "*" })); // ✅ allow all origins (or restrict later)
 
-// ✅ serve static files (for APK hosting)
-app.use("/static", express.static(path.join(__dirname, "static")));
 app.get("/", (req, res) => res.send("📱 EMI Lock System Backend Running"));
-
+app.use(cors({ origin: "*" })); // ✅ allow all origins (or restrict later)
 
 app.use("/api/devices", deviceRoutes);
 app.use("/api/provision", provisionRoutes);
