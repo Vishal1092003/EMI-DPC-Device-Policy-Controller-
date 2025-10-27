@@ -4,7 +4,6 @@
     "slug": "emiBlocker",
     "version": "1.0.0",
     "orientation": "portrait",
-    "platforms": ["ios", "android", "web"],
     "icon": "./assets/images/icon.png",
     "scheme": "emiblocker",
     "userInterfaceStyle": "automatic",
