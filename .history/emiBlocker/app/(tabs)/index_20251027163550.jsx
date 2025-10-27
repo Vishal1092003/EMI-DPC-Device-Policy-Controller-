@@ -25,7 +25,7 @@ const Index = () => {
             });
 
             const data = await res.json();
-            
+
             if (res.ok) {
                 console.log("✅ Device registered:", data);
             } else {

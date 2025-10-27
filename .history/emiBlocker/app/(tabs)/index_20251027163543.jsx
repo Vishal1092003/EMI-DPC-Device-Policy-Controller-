@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "expo-router";
 import * as Device from "expo-device"; // to get unique device info
 
-const BASE_URL = "https://emidpc-five.vercel.app/api/devices";
+const BASE_URL = "/api/devices";
 
 const Index = () => {
     const router = useRouter();
@@ -25,7 +25,7 @@ const Index = () => {
             });
 
             const data = await res.json();
-            
+
             if (res.ok) {
                 console.log("✅ Device registered:", data);
             } else {
