@@ -107,7 +107,7 @@ export default function Home() {
                 style={styles.bgImage}
                 blurRadius={20}
             >
-                <Navbar />
+                {/* <Navbar /> */}
 
                 <View style={styles.overlay}>
                     <Animated.Text style={[styles.title, { color: glowColor }]}>

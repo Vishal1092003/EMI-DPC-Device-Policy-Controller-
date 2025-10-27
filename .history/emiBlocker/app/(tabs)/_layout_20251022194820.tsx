@@ -1,11 +1,11 @@
-import { Stack } from "expo-router";
+import { Stack } from 'expo-router';
 
 export default function RootLayout() {
   return (
     <Stack
       screenOptions={{
+        animation: 'slide_from_right', // ✅ Same as SlideFromRightIOS
         headerShown: false,
-        animation: "fade",
       }}
     />
   );

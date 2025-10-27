@@ -129,7 +129,7 @@ const styles = StyleSheet.create({
     right: {
         flexDirection: "row",
         alignItems: "center",
-        gap: 15,
+        gap: 20,
     },
     linkWrap: {
         alignItems: "center",

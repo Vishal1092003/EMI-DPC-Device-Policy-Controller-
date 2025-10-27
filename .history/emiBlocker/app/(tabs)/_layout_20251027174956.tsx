@@ -4,8 +4,8 @@ export default function RootLayout() {
   return (
     <Stack
       screenOptions={{
-        headerShown: false,
-        animation: "fade",
+        headerStyle: { backgroundColor: "red" },
+        headerTitle: "TEST HEADER",
       }}
     />
   );

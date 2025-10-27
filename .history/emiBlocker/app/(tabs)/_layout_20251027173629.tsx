@@ -4,8 +4,8 @@ export default function RootLayout() {
   return (
     <Stack
       screenOptions={{
-        headerShown: false,
-        animation: "fade",
+        headerShown: false, // ✅ hides that "src/pages/Home" globally
+        animation: "fade",  // optional, smooth screen transition
       }}
     />
   );
