@@ -3,6 +3,8 @@
 
 A complete **Device Control & EMI Lock System** that allows sellers (admins) to register sold devices, remotely lock/unlock them, and manage customer verification — built using **React Native (Expo)** frontend and a **Node.js + Express + MongoDB** backend.
 
+<img width="8301" height="1361" alt="Untitled diagram-2025-11-24-015038" src="https://github.com/user-attachments/assets/7b016a61-bae3-44b5-938a-1b61c5d6afbe" />
+
 ---
       ┌──────────────────────────────┐
       │        👨‍💼 Admin App         │
