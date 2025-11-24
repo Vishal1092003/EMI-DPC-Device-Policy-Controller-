@@ -62,6 +62,14 @@ A complete **Device Control & EMI Lock System** that allows sellers (admins) to 
 | **Optional Push** | FCM integration for remote commands (future scope) |
 
 ---
+![device ownership](https://github.com/user-attachments/assets/951c838b-6df5-4eee-903b-da0cbc9535e3)
+![screen 1](https://github.com/user-attachments/assets/2067d2c9-b488-4f67-a17e-3e63377c8866)
+![screen 2](https://github.com/user-attachments/assets/53de99ac-0734-4b3f-acdc-01f9aa685f90)
+![screen 3](https://github.com/user-attachments/assets/72e70a9e-c2a3-4eed-9e88-50713658599c)
+
+
+
+
 
 ## 🏗️ System Architecture
 
