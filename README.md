@@ -167,14 +167,14 @@ emi-blocking-system/
 | `GET` | `/api/provision/qr` | Returns base64 QR for Android provisioning |
 
 The QR encodes:
-```json
+
 {
   "android.app.extra.PROVISIONING_DEVICE_ADMIN_COMPONENT_NAME": "com.vishal1092003.emiBlocker/.MyDeviceAdminReceiver",
   "android.app.extra.PROVISIONING_DEVICE_ADMIN_PACKAGE_DOWNLOAD_LOCATION": "https://your-domain.com/static/emi-dpc-release.apk",
   "android.app.extra.PROVISIONING_DEVICE_ADMIN_SIGNATURE_CHECKSUM": "<sha256_base64_checksum>",
   "android.app.extra.PROVISIONING_LEAVE_ALL_SYSTEM_APPS_ENABLED": true
 }
-# 💡 EMI Lock System — Frontend (React Native / Expo)
+💡 EMI Lock System — Frontend (React Native / Expo)
 
 This is the **mobile frontend** for the EMI Blocking System.  
 It allows the **Admin/Seller** to manage sold devices, lock/unlock them remotely, and handle customer device control using a secure backend API.
