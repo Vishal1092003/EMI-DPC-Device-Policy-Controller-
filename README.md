@@ -1,4 +1,5 @@
 # 📱 EMI Blocking System
+ 
 
 A complete **Device Control & EMI Lock System** that allows sellers (admins) to register sold devices, remotely lock/unlock them, and manage customer verification — built using **React Native (Expo)** frontend and a **Node.js + Express + MongoDB** backend.
 
@@ -315,8 +316,8 @@ Test endpoints in browser/Postman:
 
 / → 📱 EMI Lock System Backend Running
 
-/api/devices → ✅ Returns device list
+/api/devices →  Returns device list
 
-/api/provision/qr → ✅ Returns QR data URL JSON
+/api/provision/qr →  Returns QR data URL JSON
 
 
