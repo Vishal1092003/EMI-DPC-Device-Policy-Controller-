@@ -63,13 +63,6 @@ A complete **Device Control & EMI Lock System** that allows sellers (admins) to 
 
 ---
 ![device ownership](https://github.com/user-attachments/assets/951c838b-6df5-4eee-903b-da0cbc9535e3)
-![screen 1](https://github.com/user-attachments/assets/2067d2c9-b488-4f67-a17e-3e63377c8866)
-![screen 2](https://github.com/user-attachments/assets/53de99ac-0734-4b3f-acdc-01f9aa685f90)
-![screen 3](https://github.com/user-attachments/assets/72e70a9e-c2a3-4eed-9e88-50713658599c)
-
-
-
-
 
 ## 🏗️ System Architecture
 
@@ -190,7 +183,9 @@ This is the **mobile frontend** for the EMI Blocking System.
 It allows the **Admin/Seller** to manage sold devices, lock/unlock them remotely, and handle customer device control using a secure backend API.
 
 ---
-
+![screen 1](https://github.com/user-attachments/assets/2067d2c9-b488-4f67-a17e-3e63377c8866)
+![screen 2](https://github.com/user-attachments/assets/53de99ac-0734-4b3f-acdc-01f9aa685f90)
+![screen 3](https://github.com/user-attachments/assets/72e70a9e-c2a3-4eed-9e88-50713658599c)
 ## 🚀 Tech Stack
 
 | Layer | Technologies |
